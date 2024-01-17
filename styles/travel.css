@@ -213,3 +213,32 @@ height: 30px;
 text-align: center;
 margin-left: 500px;
 }
+@media only screen and (max-width:600px){
+    .mountain{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}
+@media only screen and (max-width:600px){
+    .row1{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .row2{
+        grid-template-columns: 1fr;
+    }
+    .row3{
+        grid-template-columns: 1fr;
+    }
+   
+}
+@media only screen and (max-width:600px){
+    .double-box{
+        flex-direction: column;
+    }
+    .box3{
+        width: 80%;
+    }
+    
+}
